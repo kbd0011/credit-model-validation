@@ -612,8 +612,8 @@ PSI uses 10 quantile bins fixed on the development distribution, with empty bins
 
 The full validation reproduces from a clean checkout with `make all`. That command regenerates the data, refits and freezes the production model, runs the validation, runs the unit tests and builds this report. Every number in this report is inserted from `outputs/` by `report/build_report.py`. Before rendering, the builder re-tests the evidence behind each finding and refuses to publish if the evidence no longer supports the register.
 
-- **Code version:** not under version control (see file hashes). The SHA-256 content hashes in Table E.1 identify the exact data, model artifact and validation code used.
-- **Run timestamp:** 2026-11-10T02:41:38Z; Python 3.13.18; numpy 2.5.3, pandas 3.0.5, scikit-learn 1.9.1, scipy 1.18.1, matplotlib 3.11.2
+- **Code version:** d407623437e90ea3fead58d4a7a1d0e5bed46c73. The SHA-256 content hashes in Table E.1 identify the exact data, model artifact and validation code used.
+- **Run timestamp:** 2026-11-10T04:00:07Z; Python 3.13.18; numpy 2.5.3, pandas 3.0.5, scikit-learn 1.9.1, scipy 1.18.1, matplotlib 3.11.2
 - **Random seeds:** data_generation = 20261109, developer_split = 7, bootstrap_discrimination = 11, sobol = 5, coef_simulation = 9, importance_bootstrap = 21, ice_sample = 3, gbm = 0
 - **Bootstrap:** 1000 resamples for discrimination CIs; 20 refits for importance stability; 2,000 coefficient draws; 20,000 Sobol base samples
 

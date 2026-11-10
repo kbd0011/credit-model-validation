@@ -1,7 +1,7 @@
 {
-  "run_date_utc": "2026-11-10T02:41:38Z",
+  "run_date_utc": "2026-11-10T04:00:07Z",
   "report_date": "2026-11-09",
-  "git_commit": "not under version control (see file hashes)",
+  "git_commit": "d407623437e90ea3fead58d4a7a1d0e5bed46c73",
   "python": "3.13.18",
   "libraries": {
     "numpy": "2.5.3",
@@ -33,18 +33,18 @@
     "validation/advanced.py": "bd2e1a48e76dee4652be90633e3b7449ba1cd544b9deecb28204f07780cdb683",
     "validation/stats_core.py": "f8137079dfe32f37701dbcffca96fc7b6644c7d6438bdff8759e9ffa309106f5"
   },
-  "runtime_seconds": 80.7,
+  "runtime_seconds": 54.7,
   "log": [
-    "[   6.3s] data quality",
-    "[   6.3s] replication",
-    "[   6.7s] conceptual soundness",
-    "[  19.9s] outcomes analysis",
-    "[  20.0s] stability",
-    "[  20.5s] benchmarking",
-    "[  21.1s] sensitivity",
-    "[  21.3s] fair lending",
-    "[  77.9s] ML challenger validation",
-    "[  80.7s] figures",
-    "[  80.7s] monitoring plan"
+    "[   1.3s] data quality",
+    "[   1.3s] replication",
+    "[   1.7s] conceptual soundness",
+    "[  13.8s] outcomes analysis",
+    "[  13.8s] stability",
+    "[  14.0s] benchmarking",
+    "[  14.8s] sensitivity",
+    "[  14.9s] fair lending",
+    "[  52.1s] ML challenger validation",
+    "[  54.7s] figures",
+    "[  54.7s] monitoring plan"
   ]
 }
