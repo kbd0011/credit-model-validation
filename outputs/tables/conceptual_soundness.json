@@ -1,0 +1,198 @@
+{
+  "wald_table": [
+    {
+      "variable": "intercept",
+      "coef": 14.79593,
+      "std_err": 0.74276,
+      "z": 19.92,
+      "p_value": 0.0
+    },
+    {
+      "variable": "fico",
+      "coef": -0.02731,
+      "std_err": 0.00056,
+      "z": -48.95,
+      "p_value": 0.0
+    },
+    {
+      "variable": "dti",
+      "coef": 3.51527,
+      "std_err": 0.15147,
+      "z": 23.21,
+      "p_value": 0.0
+    },
+    {
+      "variable": "utilization",
+      "coef": 2.37781,
+      "std_err": 0.1342,
+      "z": 17.72,
+      "p_value": 0.0
+    },
+    {
+      "variable": "income_log",
+      "coef": -0.05558,
+      "std_err": 0.05893,
+      "z": -0.94,
+      "p_value": 0.3457
+    },
+    {
+      "variable": "inquiries_6m",
+      "coef": 0.22539,
+      "std_err": 0.02134,
+      "z": 10.56,
+      "p_value": 0.0
+    },
+    {
+      "variable": "delinq_24m",
+      "coef": 0.52177,
+      "std_err": 0.0447,
+      "z": 11.67,
+      "p_value": 0.0
+    },
+    {
+      "variable": "employment_years",
+      "coef": -0.03953,
+      "std_err": 0.00609,
+      "z": -6.49,
+      "p_value": 0.0
+    },
+    {
+      "variable": "region_risk",
+      "coef": 0.50676,
+      "std_err": 0.09704,
+      "z": 5.22,
+      "p_value": 0.0
+    },
+    {
+      "variable": "channel_broker",
+      "coef": 0.3735,
+      "std_err": 0.06403,
+      "z": 5.83,
+      "p_value": 0.0
+    }
+  ],
+  "sign_checks": {
+    "fico": true,
+    "dti": true,
+    "utilization": true,
+    "income_log": true,
+    "inquiries_6m": true,
+    "delinq_24m": true,
+    "employment_years": true,
+    "region_risk": true,
+    "channel_broker": true
+  },
+  "dti_linearity": {
+    "bins": [
+      {
+        "dti": 0.0723,
+        "dr": 0.0938,
+        "n": 2335,
+        "emp_logit": -2.2682,
+        "linear_extrap": -2.2787,
+        "residual": 0.0105
+      },
+      {
+        "dti": 0.1316,
+        "dr": 0.0999,
+        "n": 2333,
+        "emp_logit": -2.1987,
+        "linear_extrap": -2.2065,
+        "residual": 0.0079
+      },
+      {
+        "dti": 0.1756,
+        "dr": 0.1067,
+        "n": 2334,
+        "emp_logit": -2.1251,
+        "linear_extrap": -2.1532,
+        "residual": 0.0281
+      },
+      {
+        "dti": 0.2135,
+        "dr": 0.1031,
+        "n": 2338,
+        "emp_logit": -2.1635,
+        "linear_extrap": -2.1071,
+        "residual": -0.0564
+      },
+      {
+        "dti": 0.2491,
+        "dr": 0.1107,
+        "n": 2330,
+        "emp_logit": -2.0833,
+        "linear_extrap": -2.0638,
+        "residual": -0.0195
+      },
+      {
+        "dti": 0.2858,
+        "dr": 0.1177,
+        "n": 2337,
+        "emp_logit": -2.0147,
+        "linear_extrap": -2.0192,
+        "residual": 0.0045
+      },
+      {
+        "dti": 0.3239,
+        "dr": 0.123,
+        "n": 2334,
+        "emp_logit": -1.9646,
+        "linear_extrap": -1.9729,
+        "residual": 0.0083
+      },
+      {
+        "dti": 0.3635,
+        "dr": 0.1288,
+        "n": 2329,
+        "emp_logit": -1.9115,
+        "linear_extrap": -1.9247,
+        "residual": 0.0132
+      },
+      {
+        "dti": 0.4067,
+        "dr": 0.1337,
+        "n": 2334,
+        "emp_logit": -1.8688,
+        "linear_extrap": -1.8723,
+        "residual": 0.0034
+      },
+      {
+        "dti": 0.4562,
+        "dr": 0.1408,
+        "n": 2329,
+        "emp_logit": -1.8084,
+        "linear_extrap": -1.812,
+        "residual": 0.0036
+      },
+      {
+        "dti": 0.5199,
+        "dr": 0.198,
+        "n": 2333,
+        "emp_logit": -1.3987,
+        "linear_extrap": -1.7347,
+        "residual": 0.336
+      },
+      {
+        "dti": 0.6373,
+        "dr": 0.3025,
+        "n": 2334,
+        "emp_logit": -0.8355,
+        "linear_extrap": -1.592,
+        "residual": 0.7565
+      }
+    ],
+    "mean_tail_residual_logit": 0.365,
+    "knot": 0.44
+  },
+  "vif": {
+    "fico": 1.0,
+    "dti": 1.0,
+    "utilization": 1.001,
+    "income_log": 1.0,
+    "inquiries_6m": 1.0,
+    "delinq_24m": 1.0,
+    "employment_years": 1.0,
+    "region_risk": 1.0,
+    "channel_broker": 1.0
+  }
+}

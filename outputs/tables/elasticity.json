@@ -1,0 +1,101 @@
+[
+  {
+    "feature": "fico",
+    "sd": 57.289671264498246,
+    "dPD_per_sd": -0.1356159846312957,
+    "pd_plus_1sd": 0.0458549556725544,
+    "pd_minus_1sd": 0.32138468896080286,
+    "note": "",
+    "base_mean_pd": 0.1384717038288146,
+    "rel_change_plus_1sd": -0.6688496320573732,
+    "rank": 1
+  },
+  {
+    "feature": "dti",
+    "sd": 0.15972651580387767,
+    "dPD_per_sd": 0.04865332615171733,
+    "pd_plus_1sd": 0.19336836527807894,
+    "pd_minus_1sd": 0.09581462283505476,
+    "note": "",
+    "base_mean_pd": 0.1384717038288146,
+    "rel_change_plus_1sd": 0.39644678249305176,
+    "rank": 2
+  },
+  {
+    "feature": "utilization",
+    "sd": 0.17823861151775552,
+    "dPD_per_sd": 0.036724115484592645,
+    "pd_plus_1sd": 0.17874781777238122,
+    "pd_minus_1sd": 0.10519190653753326,
+    "note": "",
+    "base_mean_pd": 0.1384717038288146,
+    "rel_change_plus_1sd": 0.2908616910885844,
+    "rank": 3
+  },
+  {
+    "feature": "channel_broker",
+    "sd": NaN,
+    "dPD_per_sd": 0.034269887135225996,
+    "pd_plus_1sd": 0.16739268210498326,
+    "pd_minus_1sd": 0.13312279496975726,
+    "note": "binary: all broker vs all non-broker",
+    "base_mean_pd": 0.1384717038288146,
+    "rel_change_plus_1sd": 0.20885839833329545,
+    "rank": 4
+  },
+  {
+    "feature": "delinq_24m",
+    "sd": 0.5009280954307554,
+    "dPD_per_sd": 0.022647749802016948,
+    "pd_plus_1sd": 0.16246621913739176,
+    "pd_minus_1sd": 0.11714518873775075,
+    "note": "",
+    "base_mean_pd": 0.1384717038288146,
+    "rel_change_plus_1sd": 0.1732809999813416,
+    "rank": 5
+  },
+  {
+    "feature": "inquiries_6m",
+    "sd": 1.0956947186720525,
+    "dPD_per_sd": 0.02139893962671488,
+    "pd_plus_1sd": 0.16107257111503792,
+    "pd_minus_1sd": 0.11825314048462976,
+    "note": "",
+    "base_mean_pd": 0.1384717038288146,
+    "rel_change_plus_1sd": 0.16321650316488912,
+    "rank": 6
+  },
+  {
+    "feature": "employment_years",
+    "sd": 4.215095884778504,
+    "dPD_per_sd": -0.014436020004909428,
+    "pd_plus_1sd": 0.12457489821913337,
+    "pd_minus_1sd": 0.1534535762965208,
+    "note": "",
+    "base_mean_pd": 0.1384717038288146,
+    "rel_change_plus_1sd": -0.10035845032181545,
+    "rank": 7
+  },
+  {
+    "feature": "region_risk",
+    "sd": 0.2521185447274809,
+    "dPD_per_sd": 0.011070700497918667,
+    "pd_plus_1sd": 0.14986305797796856,
+    "pd_minus_1sd": 0.12771865984858352,
+    "note": "",
+    "base_mean_pd": 0.1384717038288146,
+    "rel_change_plus_1sd": 0.08226485147634577,
+    "rank": 8
+  },
+  {
+    "feature": "income_log",
+    "sd": 0.42312558136009115,
+    "dPD_per_sd": -0.002037580898122393,
+    "pd_plus_1sd": 0.1364449290787373,
+    "pd_minus_1sd": 0.14052010958995856,
+    "note": "",
+    "base_mean_pd": 0.1384717038288146,
+    "rel_change_plus_1sd": -0.014636743060393864,
+    "rank": 9
+  }
+]

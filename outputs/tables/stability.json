@@ -1,0 +1,30 @@
+{
+  "2024H1": {
+    "score_psi": 0.0014,
+    "csi": {
+      "fico": 0.0011,
+      "dti": 0.0004,
+      "utilization": 0.0014,
+      "income_log": 0.0007,
+      "inquiries_6m": 0.0004,
+      "delinq_24m": 0.0004,
+      "employment_years": 0.0006,
+      "region_risk": 0.0008,
+      "channel_broker": 0.0024
+    }
+  },
+  "2024H2": {
+    "score_psi": 0.1936,
+    "csi": {
+      "fico": 0.1498,
+      "dti": 0.0012,
+      "utilization": 0.1785,
+      "income_log": 0.0015,
+      "inquiries_6m": 0.0005,
+      "delinq_24m": 0.0,
+      "employment_years": 0.0012,
+      "region_risk": 0.0006,
+      "channel_broker": 0.0051
+    }
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "feature": "fico",
+    "model": "production",
+    "expected_direction": "decreasing",
+    "pd_curve_violations": 0,
+    "n_steps": 24,
+    "max_reversal_pp": 0.0,
+    "ice_share_reversal_gt_50bp": 0.0,
+    "pd_range_pp": 57.01864658414435
+  },
+  {
+    "feature": "fico",
+    "model": "gbm",
+    "expected_direction": "decreasing",
+    "pd_curve_violations": 0,
+    "n_steps": 24,
+    "max_reversal_pp": 0.0,
+    "ice_share_reversal_gt_50bp": 0.159,
+    "pd_range_pp": 54.79955411582898
+  },
+  {
+    "feature": "fico",
+    "model": "gbm_monotone",
+    "expected_direction": "decreasing",
+    "pd_curve_violations": 0,
+    "n_steps": 24,
+    "max_reversal_pp": 0.0,
+    "ice_share_reversal_gt_50bp": 0.0,
+    "pd_range_pp": 54.14959176040437
+  },
+  {
+    "feature": "dti",
+    "model": "production",
+    "expected_direction": "increasing",
+    "pd_curve_violations": 0,
+    "n_steps": 24,
+    "max_reversal_pp": 0.0,
+    "ice_share_reversal_gt_50bp": 0.0,
+    "pd_range_pp": 19.494111962898927
+  },
+  {
+    "feature": "dti",
+    "model": "gbm",
+    "expected_direction": "increasing",
+    "pd_curve_violations": 4,
+    "n_steps": 24,
+    "max_reversal_pp": 1.0099985099394346,
+    "ice_share_reversal_gt_50bp": 0.431,
+    "pd_range_pp": 23.68442402919582
+  },
+  {
+    "feature": "dti",
+    "model": "gbm_monotone",
+    "expected_direction": "increasing",
+    "pd_curve_violations": 0,
+    "n_steps": 24,
+    "max_reversal_pp": 0.0,
+    "ice_share_reversal_gt_50bp": 0.0,
+    "pd_range_pp": 23.6996856374818
+  },
+  {
+    "feature": "utilization",
+    "model": "production",
+    "expected_direction": "increasing",
+    "pd_curve_violations": 0,
+    "n_steps": 24,
+    "max_reversal_pp": 0.0,
+    "ice_share_reversal_gt_50bp": 0.0,
+    "pd_range_pp": 14.401003117099997
+  },
+  {
+    "feature": "utilization",
+    "model": "gbm",
+    "expected_direction": "increasing",
+    "pd_curve_violations": 3,
+    "n_steps": 24,
+    "max_reversal_pp": 0.4106515703644398,
+    "ice_share_reversal_gt_50bp": 0.513,
+    "pd_range_pp": 12.917611427773107
+  },
+  {
+    "feature": "utilization",
+    "model": "gbm_monotone",
+    "expected_direction": "increasing",
+    "pd_curve_violations": 0,
+    "n_steps": 24,
+    "max_reversal_pp": 0.0,
+    "ice_share_reversal_gt_50bp": 0.0,
+    "pd_range_pp": 13.625667212655813
+  }
+]

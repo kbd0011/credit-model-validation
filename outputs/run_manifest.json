@@ -1,0 +1,50 @@
+{
+  "run_date_utc": "2026-11-10T02:41:38Z",
+  "report_date": "2026-11-09",
+  "git_commit": "not under version control (see file hashes)",
+  "python": "3.13.18",
+  "libraries": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "seeds": {
+    "data_generation": 20261109,
+    "developer_split": 7,
+    "bootstrap_discrimination": 11,
+    "sobol": 5,
+    "coef_simulation": 9,
+    "importance_bootstrap": 21,
+    "ice_sample": 3,
+    "gbm": 0
+  },
+  "dti_knot": 0.44,
+  "n_bootstrap_discrimination": 1000,
+  "n_bootstrap_importance": 20,
+  "sha256": {
+    "data/portfolio.csv": "a10068359ece9e112cf5723f70a9abdaec3e75f445a94d3d91f32e76d76f9d3c",
+    "data/make_data.py": "adc6028dbeeb862ca1565bfb0db5c4bd998c0bfdd09c043f3a7d053fc497baeb",
+    "model/pd_model_v1.pkl": "4a4e6afa1ec4a16ee812a3c7649e4e09b138b937ad1aa29276dd502151fa84b2",
+    "model/develop_model.py": "1ede9b4509981ecbf2499d99a707f129cac417641ab8b67a730374fd52d66a01",
+    "model/developer_documentation.json": "fe0db11814e0a772eeaaee2c22c178e93917030a150f73c47d0a8f3e0ea41ae4",
+    "validation/tests.py": "be74780eeb3c93a3934468dd730cc28d00e047249aa9d46c7d0d4ca8ad4b6203",
+    "validation/advanced.py": "bd2e1a48e76dee4652be90633e3b7449ba1cd544b9deecb28204f07780cdb683",
+    "validation/stats_core.py": "f8137079dfe32f37701dbcffca96fc7b6644c7d6438bdff8759e9ffa309106f5"
+  },
+  "runtime_seconds": 80.7,
+  "log": [
+    "[   6.3s] data quality",
+    "[   6.3s] replication",
+    "[   6.7s] conceptual soundness",
+    "[  19.9s] outcomes analysis",
+    "[  20.0s] stability",
+    "[  20.5s] benchmarking",
+    "[  21.1s] sensitivity",
+    "[  21.3s] fair lending",
+    "[  77.9s] ML challenger validation",
+    "[  80.7s] figures",
+    "[  80.7s] monitoring plan"
+  ]
+}

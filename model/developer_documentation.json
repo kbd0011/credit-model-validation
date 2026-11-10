@@ -1,0 +1,29 @@
+{
+  "model_name": "Consumer PD Model v1.0",
+  "owner": "Retail Credit Analytics (1st line)",
+  "purpose": "12-month probability of default for unsecured consumer loans; used in underwriting cut-off and risk-based pricing.",
+  "methodology": "Logistic regression, unpenalised, 9 predictors.",
+  "development_sample": "Vintages 2023H1-2023H2, 70/30 random split",
+  "n_train": 19440,
+  "n_test": 8560,
+  "intercept": 14.795933421604396,
+  "coefficients": {
+    "fico": -0.02731,
+    "dti": 3.51527,
+    "utilization": 2.37781,
+    "income_log": -0.05558,
+    "inquiries_6m": 0.22539,
+    "delinq_24m": 0.52177,
+    "employment_years": -0.03953,
+    "region_risk": 0.50676,
+    "channel_broker": 0.3735
+  },
+  "income_imputation": "median imputation, fill=60294, no missing indicator",
+  "developer_reported_auc": {
+    "train": 0.8632,
+    "test": 0.8513
+  },
+  "out_of_time_testing": "none performed",
+  "fair_lending_review": "not documented",
+  "monitoring_plan": "annual review"
+}

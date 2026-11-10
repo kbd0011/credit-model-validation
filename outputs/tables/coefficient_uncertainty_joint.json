@@ -1,0 +1,14 @@
+{
+  "n_sim": 2000,
+  "cutoff_pd": 0.1455917578721594,
+  "base_mean_pd": 0.1384717038288146,
+  "base_approval_rate": 0.7003001286265542,
+  "mean_pd_p05": 0.13517352054293907,
+  "mean_pd_p95": 0.14198790493601868,
+  "approval_p05": 0.6922949121051879,
+  "approval_p95": 0.7090574531942261,
+  "flipped_pct_median": 1.1147634700585967,
+  "flipped_pct_p95": 1.5865728169215376,
+  "corr_intercept_fico": -0.4677114211801313,
+  "corr_intercept_income_log": -0.872346088038078
+}

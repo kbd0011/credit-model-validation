@@ -1,0 +1,43 @@
+{
+  "base_mean_pd": 0.1388,
+  "one_sd_shocks": {
+    "fico": {
+      "plus_1sd_mean_pd": 0.0462,
+      "minus_1sd_mean_pd": 0.3217
+    },
+    "dti": {
+      "plus_1sd_mean_pd": 0.1937,
+      "minus_1sd_mean_pd": 0.0962
+    },
+    "utilization": {
+      "plus_1sd_mean_pd": 0.1791,
+      "minus_1sd_mean_pd": 0.1056
+    },
+    "inquiries_6m": {
+      "plus_1sd_mean_pd": 0.1614,
+      "minus_1sd_mean_pd": 0.1186
+    },
+    "delinq_24m": {
+      "plus_1sd_mean_pd": 0.1628,
+      "minus_1sd_mean_pd": 0.1175
+    },
+    "employment_years": {
+      "plus_1sd_mean_pd": 0.1249,
+      "minus_1sd_mean_pd": 0.1538
+    },
+    "region_risk": {
+      "plus_1sd_mean_pd": 0.1502,
+      "minus_1sd_mean_pd": 0.1281
+    }
+  },
+  "stress_scenario": {
+    "description": "FICO -30, utilization +0.10, inquiries +1",
+    "mean_pd": 0.2821,
+    "relative_increase": 1.032
+  },
+  "income_imputation_sensitivity_missing_rows": {
+    "fill_p10": 0.1982,
+    "fill_p50": 0.1947,
+    "fill_p90": 0.1914
+  }
+}

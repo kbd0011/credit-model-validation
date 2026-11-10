@@ -1,0 +1,370 @@
+{
+  "report_date": "2026-11-09",
+  "approval_cutoff_pd": 0.1455917578721594,
+  "n_total": 54000,
+  "n_dev": 28000,
+  "n_oot": {
+    "2024H1": 14000,
+    "2024H2": 12000
+  },
+  "auc": {
+    "dev": {
+      "auc": 0.8596448607938696,
+      "lo": 0.8538889232737923,
+      "hi": 0.8663762062816319,
+      "ks": 0.5529439481019585,
+      "ks_lo": 0.5401751078923748,
+      "ks_hi": 0.5678578451834091,
+      "gini": 0.7192897215877392,
+      "gini_lo": 0.7077778465475846,
+      "gini_hi": 0.7327524125632638
+    },
+    "dev_test": {
+      "auc": 0.8512705123202671,
+      "lo": 0.8400010508647398,
+      "hi": 0.8622230379161706,
+      "ks": 0.5358076248369755,
+      "ks_lo": 0.5152188679622166,
+      "ks_hi": 0.5640162102237624,
+      "gini": 0.7025410246405341,
+      "gini_lo": 0.6800021017294795,
+      "gini_hi": 0.7244460758323412
+    },
+    "2023H1": {
+      "auc": 0.8653382642025959,
+      "lo": 0.8570258488214337,
+      "hi": 0.8736917559143659,
+      "ks": 0.5721440996863584,
+      "ks_lo": 0.5537256963003415,
+      "ks_hi": 0.5930000203069911,
+      "gini": 0.7306765284051917,
+      "gini_lo": 0.7140516976428675,
+      "gini_hi": 0.7473835118287318
+    },
+    "2023H2": {
+      "auc": 0.8537292955376595,
+      "lo": 0.8449854450274612,
+      "hi": 0.8623304921068714,
+      "ks": 0.5358407251789605,
+      "ks_lo": 0.5180757690656759,
+      "ks_hi": 0.5598311701425519,
+      "gini": 0.707458591075319,
+      "gini_lo": 0.6899708900549224,
+      "gini_hi": 0.7246609842137428
+    },
+    "2024H1": {
+      "auc": 0.8605310296248272,
+      "lo": 0.8521332770751868,
+      "hi": 0.8689393774088295,
+      "ks": 0.559189616837148,
+      "ks_lo": 0.5409459210235656,
+      "ks_hi": 0.5805092956274116,
+      "gini": 0.7210620592496544,
+      "gini_lo": 0.7042665541503736,
+      "gini_hi": 0.7378787548176591
+    },
+    "2024H2": {
+      "auc": 0.858467594103258,
+      "lo": 0.8506378334244733,
+      "hi": 0.8660168309913214,
+      "ks": 0.5568098672898669,
+      "ks_lo": 0.5416670547223998,
+      "ks_hi": 0.57690833719187,
+      "gini": 0.716935188206516,
+      "gini_lo": 0.7012756668489466,
+      "gini_hi": 0.7320336619826429
+    }
+  },
+  "psi_2024H1": 0.0014,
+  "psi_2024H2": 0.1936,
+  "hl_p": {
+    "dev": 0.24007084924494995,
+    "2024H1": 0.8242137000994763,
+    "2024H2": 0.10165281152157397
+  },
+  "air_fixed_cutoff": {
+    "dev": 0.954056145562518,
+    "2024H1": 0.9561525442781384,
+    "2024H2": 0.9386753942621009
+  },
+  "delong": [
+    {
+      "sample": "dev_test",
+      "challenger": "enhanced_logit",
+      "auc_production": 0.8512705123202671,
+      "auc_challenger": 0.8672362413360979,
+      "auc_diff": 0.01596572901583082,
+      "diff_se": 0.002277502959942109,
+      "diff_lo": 0.011501905204450845,
+      "diff_hi": 0.020429552827210797,
+      "z": 7.010190237573455,
+      "p_value": 2.3799430029525014e-12
+    },
+    {
+      "sample": "dev_test",
+      "challenger": "gbm",
+      "auc_production": 0.8512705123202671,
+      "auc_challenger": 0.860357779312975,
+      "auc_diff": 0.009087266992707899,
+      "diff_se": 0.0025291725441439154,
+      "diff_lo": 0.004130179856397413,
+      "diff_hi": 0.014044354129018385,
+      "z": 3.5929802471360426,
+      "p_value": 0.0003269173787935785
+    },
+    {
+      "sample": "dev_test",
+      "challenger": "gbm_monotone",
+      "auc_production": 0.8512705123202671,
+      "auc_challenger": 0.862598597629806,
+      "auc_diff": 0.011328085309538882,
+      "diff_se": 0.002431748445821469,
+      "diff_lo": 0.006561945898672853,
+      "diff_hi": 0.016094224720404914,
+      "z": 4.658411658082562,
+      "p_value": 3.1865850057835083e-06
+    },
+    {
+      "sample": "dev_test",
+      "challenger": "no_region_logit",
+      "auc_production": 0.8512705123202671,
+      "auc_challenger": 0.8506012477782041,
+      "auc_diff": -0.0006692645420629528,
+      "diff_se": 0.0005713734730318354,
+      "diff_lo": -0.0017891359797603211,
+      "diff_hi": 0.00045060689563441547,
+      "z": -1.1713258904227484,
+      "p_value": 0.2414678084304389
+    },
+    {
+      "sample": "2024H1",
+      "challenger": "enhanced_logit",
+      "auc_production": 0.8605310296248272,
+      "auc_challenger": 0.8739314701662335,
+      "auc_diff": 0.013400440541406322,
+      "diff_se": 0.0016302491775767613,
+      "diff_lo": 0.010205210842326264,
+      "diff_hi": 0.01659567024048638,
+      "z": 8.219872597221633,
+      "p_value": 2.0371948005530031e-16
+    },
+    {
+      "sample": "2024H1",
+      "challenger": "gbm",
+      "auc_production": 0.8605310296248272,
+      "auc_challenger": 0.8660709578841105,
+      "auc_diff": 0.005539928259283289,
+      "diff_se": 0.0018850928103217913,
+      "diff_lo": 0.0018452142143937493,
+      "diff_hi": 0.009234642304172829,
+      "z": 2.938809287770614,
+      "p_value": 0.0032947574107839764
+    },
+    {
+      "sample": "2024H1",
+      "challenger": "gbm_monotone",
+      "auc_production": 0.8605310296248272,
+      "auc_challenger": 0.8677586478140351,
+      "auc_diff": 0.007227618189207918,
+      "diff_se": 0.00182667578815162,
+      "diff_lo": 0.0036473994047591164,
+      "diff_hi": 0.01080783697365672,
+      "z": 3.956705528199623,
+      "p_value": 7.599050974161878e-05
+    },
+    {
+      "sample": "2024H1",
+      "challenger": "no_region_logit",
+      "auc_production": 0.8605310296248272,
+      "auc_challenger": 0.8602044000303776,
+      "auc_diff": -0.00032662959444962336,
+      "diff_se": 0.00041840726837884295,
+      "diff_lo": -0.001146692777810494,
+      "diff_hi": 0.0004934335889112472,
+      "z": -0.7806499053307068,
+      "p_value": 0.4350084313265501
+    },
+    {
+      "sample": "2024H2",
+      "challenger": "enhanced_logit",
+      "auc_production": 0.858467594103258,
+      "auc_challenger": 0.8704624857536367,
+      "auc_diff": 0.011994891650378703,
+      "diff_se": 0.0015349740825785676,
+      "diff_lo": 0.008986397707591683,
+      "diff_hi": 0.015003385593165722,
+      "z": 7.814393602156957,
+      "p_value": 5.522826281814477e-15
+    },
+    {
+      "sample": "2024H2",
+      "challenger": "gbm",
+      "auc_production": 0.858467594103258,
+      "auc_challenger": 0.8635283602776362,
+      "auc_diff": 0.005060766174378228,
+      "diff_se": 0.001750868573536504,
+      "diff_lo": 0.001629126801515328,
+      "diff_hi": 0.008492405547241129,
+      "z": 2.890431783898094,
+      "p_value": 0.0038471301592593807
+    },
+    {
+      "sample": "2024H2",
+      "challenger": "gbm_monotone",
+      "auc_production": 0.858467594103258,
+      "auc_challenger": 0.8648721047484498,
+      "auc_diff": 0.006404510645191763,
+      "diff_se": 0.001689832641687048,
+      "diff_lo": 0.00309249950146025,
+      "diff_hi": 0.009716521788923276,
+      "z": 3.7900265903242385,
+      "p_value": 0.0001506311591111525
+    },
+    {
+      "sample": "2024H2",
+      "challenger": "no_region_logit",
+      "auc_production": 0.858467594103258,
+      "auc_challenger": 0.8575471109322859,
+      "auc_diff": -0.0009204831709721528,
+      "diff_se": 0.00040230818304077263,
+      "diff_lo": -0.0017089927266374777,
+      "diff_hi": -0.00013197361530682791,
+      "z": -2.28800509105942,
+      "p_value": 0.022137224641301256
+    }
+  ],
+  "missing_income": [
+    {
+      "sample": "dev",
+      "n_missing": 3002,
+      "share_missing": 0.10721428571428572,
+      "observed_dr": 0.33677548301132576,
+      "production_pd": 0.1947305781041377,
+      "production_obs_over_pred": 1.729443245586348,
+      "enhanced_pd": 0.3389261607142965,
+      "enhanced_obs_over_pred": 0.9936544358262634,
+      "jeffreys_p_under_production": 3.8507292091185854e-75,
+      "excess_defaults_vs_production": 426.41880453137856,
+      "production_pd_fill_p10": 0.19819157539866844,
+      "production_pd_fill_p50": 0.1947416830212759,
+      "production_pd_fill_p90": 0.1913811927711398
+    },
+    {
+      "sample": "2024H1",
+      "n_missing": 1429,
+      "share_missing": 0.10207142857142858,
+      "observed_dr": 0.34849545136459065,
+      "production_pd": 0.19922887670942707,
+      "production_obs_over_pred": 1.749221584343253,
+      "enhanced_pd": 0.34398415604863114,
+      "enhanced_obs_over_pred": 1.0131148346126782,
+      "jeffreys_p_under_production": 8.329967155157309e-40,
+      "excess_defaults_vs_production": 213.3019351822287,
+      "production_pd_fill_p10": 0.20271889753834485,
+      "production_pd_fill_p50": 0.19924007681151834,
+      "production_pd_fill_p90": 0.1958501641115335
+    },
+    {
+      "sample": "2024H2",
+      "n_missing": 1415,
+      "share_missing": 0.11791666666666667,
+      "observed_dr": 0.4501766784452297,
+      "production_pd": 0.2934186300788366,
+      "production_obs_over_pred": 1.534247086915629,
+      "enhanced_pd": 0.46374832390480525,
+      "enhanced_obs_over_pred": 0.9707348905429976,
+      "jeffreys_p_under_production": 6.683535622230783e-36,
+      "excess_defaults_vs_production": 221.81263843844619,
+      "production_pd_fill_p10": 0.29779708178798286,
+      "production_pd_fill_p50": 0.29343270886299744,
+      "production_pd_fill_p90": 0.2891633430952754
+    }
+  ],
+  "grade_red_count_oot": 0,
+  "figures": [
+    {
+      "file": "fig01_vintage_profile.png",
+      "caption": "Default rate, mean FICO, mean utilization and income-missing default rate by vintage"
+    },
+    {
+      "file": "fig02_dti_functional_form.png",
+      "caption": "Binned empirical log-odds vs production and challenger log-odds across DTI"
+    },
+    {
+      "file": "fig03_dti_knot_profile.png",
+      "caption": "Profile log-likelihood of the enhanced specification across candidate DTI knots, with 95% interval"
+    },
+    {
+      "file": "fig04_fico_functional_form.png",
+      "caption": "Binned empirical log-odds vs production and challenger log-odds across FICO"
+    },
+    {
+      "file": "fig05_information_value.png",
+      "caption": "Information value of each characteristic; income shown raw (missing as its own bin) and as imputed by the model"
+    },
+    {
+      "file": "fig06_roc.png",
+      "caption": "ROC curves of the production model on development and out-of-time samples"
+    },
+    {
+      "file": "fig07_discrimination_trend.png",
+      "caption": "AUC, Gini and KS by vintage with 95% bootstrap confidence intervals"
+    },
+    {
+      "file": "fig08_reliability.png",
+      "caption": "Reliability diagrams (deciles) with Jeffreys intervals and calibration statistics"
+    },
+    {
+      "file": "fig09_grade_backtest.png",
+      "caption": "Per-grade Jeffreys backtest with traffic lights on development and out-of-time vintages"
+    },
+    {
+      "file": "fig10_segment_calibration.png",
+      "caption": "Observed-to-predicted ratio by business segment, production vs enhanced challenger"
+    },
+    {
+      "file": "fig11_benchmark_delong.png",
+      "caption": "AUC difference between each challenger and production with DeLong 95% CIs and p-values"
+    },
+    {
+      "file": "fig12_sensitivity_tornado.png",
+      "caption": "Tornado chart of portfolio mean PD under +/- 1 SD shocks to each input"
+    },
+    {
+      "file": "fig13_sobol.png",
+      "caption": "First-order and total Sobol indices of predicted PD"
+    },
+    {
+      "file": "fig14_missing_income.png",
+      "caption": "Observed default rate vs production and counterfactual PD for income-missing borrowers"
+    },
+    {
+      "file": "fig15_psi_csi.png",
+      "caption": "Score PSI and characteristic CSI for 2024H1 and 2024H2 against development"
+    },
+    {
+      "file": "fig16_score_distribution.png",
+      "caption": "Distribution of predicted PD by sample"
+    },
+    {
+      "file": "fig17_grade_mix.png",
+      "caption": "Distribution of loans across master-scale grades, development vs 2024H2"
+    },
+    {
+      "file": "fig18_fairness.png",
+      "caption": "Group fairness gaps and AUC vs adverse impact ratio, production vs model without region_risk"
+    },
+    {
+      "file": "fig19_calibration_by_group.png",
+      "caption": "Reliability by simulated protected-class group, 2024H2"
+    },
+    {
+      "file": "fig20_importance_stability.png",
+      "caption": "Bootstrap distribution of permutation importance, GBM vs logistic"
+    },
+    {
+      "file": "fig21_monotonicity.png",
+      "caption": "Partial-dependence curves for FICO, DTI and utilization: production, GBM and monotone GBM"
+    }
+  ]
+}

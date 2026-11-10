@@ -1,0 +1,160 @@
+{
+  "model_id": "CR-PD-0142",
+  "model_name": "Consumer PD Model v1.0",
+  "guidance": "SR 26-2 / OCC Bulletin 2026-13 (ongoing monitoring component); bank Model Risk Management Policy",
+  "effective_from": "2026-11-09",
+  "baseline_sample": "Development vintages 2023H1-2023H2",
+  "baseline_values": {
+    "report_date": "2026-11-09",
+    "dti_knot": 0.44,
+    "dev_auc": 0.8596448607938696,
+    "dev_ks": 0.5529439481019585,
+    "dev_mean_pd": 0.13882235279756697,
+    "approval_cutoff_pd": 0.1455917578721594,
+    "income_missing_rate_dev": 0.10721428571428572,
+    "air_dev": 0.954056145562518
+  },
+  "escalation_matrix": {
+    "green": "No action; reported in quarterly model performance pack.",
+    "amber": "Model owner root-cause analysis within 30 days; MRM notified; recorded in model inventory.",
+    "red": "Escalate to Model Risk Committee within 10 business days; MRM decides on overlay, restricted use or accelerated revalidation.",
+    "two_consecutive_amber": "Treated as red."
+  },
+  "kpis": [
+    {
+      "kpi": "Score PSI (dev vs current quarter applications)",
+      "metric": "psi",
+      "green": "< 0.10",
+      "amber": "0.10 - 0.25",
+      "red": ">= 0.25",
+      "frequency": "Monthly",
+      "owner": "Retail Credit Analytics (model owner)",
+      "escalation": "MRM"
+    },
+    {
+      "kpi": "Characteristic stability (CSI), each input",
+      "metric": "csi",
+      "green": "< 0.10",
+      "amber": "0.10 - 0.25",
+      "red": ">= 0.25",
+      "frequency": "Monthly",
+      "owner": "Retail Credit Analytics",
+      "escalation": "MRM"
+    },
+    {
+      "kpi": "AUC decay vs development",
+      "metric": "auc_dev - auc_current",
+      "baseline": 0.8596,
+      "green": "< 0.03",
+      "amber": "0.03 - 0.05",
+      "red": ">= 0.05 or lower 95% CI below 0.80",
+      "frequency": "Quarterly (12-month performance window)",
+      "owner": "Retail Credit Analytics",
+      "escalation": "MRM / Model Risk Committee"
+    },
+    {
+      "kpi": "KS decay vs development",
+      "metric": "ks_dev - ks_current",
+      "baseline": 0.5529,
+      "green": "< 0.04",
+      "amber": "0.04 - 0.07",
+      "red": ">= 0.07",
+      "frequency": "Quarterly",
+      "owner": "Retail Credit Analytics",
+      "escalation": "MRM"
+    },
+    {
+      "kpi": "Calibration ratio (observed DR / mean PD), portfolio",
+      "metric": "obs_over_pred",
+      "green": "0.90 - 1.10",
+      "amber": "0.80 - 0.90 or 1.10 - 1.20",
+      "red": "< 0.80 or > 1.20",
+      "frequency": "Quarterly",
+      "owner": "Retail Credit Analytics",
+      "escalation": "MRM"
+    },
+    {
+      "kpi": "Calibration ratio, income-missing segment",
+      "metric": "obs_over_pred",
+      "green": "0.90 - 1.10",
+      "amber": "0.80 - 0.90 or 1.10 - 1.20",
+      "red": "< 0.80 or > 1.20",
+      "frequency": "Quarterly",
+      "owner": "Retail Credit Analytics",
+      "escalation": "MRM",
+      "note": "Segment KPI added because of finding F-01."
+    },
+    {
+      "kpi": "Calibration ratio, DTI > 0.44 segment (data-selected knot)",
+      "metric": "obs_over_pred",
+      "green": "0.90 - 1.10",
+      "amber": "0.80 - 0.90 or 1.10 - 1.20",
+      "red": "< 0.80 or > 1.20",
+      "frequency": "Quarterly",
+      "owner": "Retail Credit Analytics",
+      "escalation": "MRM",
+      "note": "Segment KPI added because of finding F-02."
+    },
+    {
+      "kpi": "Grade-level Jeffreys test (one-sided, under-estimation)",
+      "metric": "count of red grades",
+      "green": "0 red, <= 1 amber",
+      "amber": "1 red or >= 2 amber",
+      "red": ">= 2 red",
+      "frequency": "Quarterly",
+      "owner": "Retail Credit Analytics",
+      "escalation": "MRM"
+    },
+    {
+      "kpi": "Approval rate by segment (channel, income-missing, DTI band)",
+      "metric": "approval rate change vs prior 4-quarter average",
+      "green": "< 5 pp",
+      "amber": "5 - 10 pp",
+      "red": ">= 10 pp",
+      "frequency": "Monthly",
+      "owner": "Credit Policy",
+      "escalation": "Credit Risk Committee"
+    },
+    {
+      "kpi": "Adverse impact ratio (proxy-based, BISG or equivalent)",
+      "metric": "air",
+      "green": ">= 0.90",
+      "amber": "0.80 - 0.90",
+      "red": "< 0.80",
+      "frequency": "Quarterly",
+      "owner": "Fair Lending Compliance",
+      "escalation": "Fair Lending Committee and MRM"
+    },
+    {
+      "kpi": "Data quality: range-violation rate (FICO outside 300-850, DTI outside 0-1)",
+      "metric": "rate",
+      "green": "< 0.01%",
+      "amber": "0.01% - 0.10%",
+      "red": ">= 0.10%",
+      "frequency": "Monthly",
+      "owner": "Data Management / Model owner",
+      "escalation": "MRM"
+    },
+    {
+      "kpi": "Data quality: income missing rate",
+      "metric": "rate",
+      "baseline": 0.1072,
+      "green": "within +/- 2 pp of baseline",
+      "amber": "2 - 5 pp",
+      "red": "> 5 pp",
+      "frequency": "Monthly",
+      "owner": "Data Management / Model owner",
+      "escalation": "MRM"
+    },
+    {
+      "kpi": "Override rate (manual decisions against model)",
+      "metric": "rate",
+      "green": "< 5%",
+      "amber": "5% - 10%",
+      "red": ">= 10%",
+      "frequency": "Monthly",
+      "owner": "Credit Policy",
+      "escalation": "MRM"
+    }
+  ]
+}

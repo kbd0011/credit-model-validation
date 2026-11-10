@@ -1,0 +1,222 @@
+[
+  {
+    "parameter": "intercept",
+    "shift": "+1 SE",
+    "se": 0.7427597817860364,
+    "naive_mean_pd_change_bp": 752.9059912841801,
+    "naive_approval_change_pp": -15.717450335858219,
+    "naive_flipped_pct": 15.717450335858224,
+    "conditional_mean_pd_change_bp": 0.7880230505508123,
+    "conditional_approval_change_pp": 0.0,
+    "conditional_flipped_pct": 0.4001715020723167
+  },
+  {
+    "parameter": "intercept",
+    "shift": "-1 SE",
+    "se": 0.7427597817860364,
+    "naive_mean_pd_change_bp": -539.9341923605174,
+    "naive_approval_change_pp": 12.809061026154067,
+    "naive_flipped_pct": 12.809061026154067,
+    "conditional_mean_pd_change_bp": -0.55916279677104,
+    "conditional_approval_change_pp": -0.028583678719451555,
+    "conditional_flipped_pct": 0.3787337430327283
+  },
+  {
+    "parameter": "fico",
+    "shift": "+1 SE",
+    "se": 0.0005579688042430391,
+    "naive_mean_pd_change_bp": 351.4058040319959,
+    "naive_approval_change_pp": -7.699728455052169,
+    "naive_flipped_pct": 7.699728455052165,
+    "conditional_mean_pd_change_bp": 0.1416757813968439,
+    "conditional_approval_change_pp": -0.1857939116764351,
+    "conditional_flipped_pct": 0.21437759039588394
+  },
+  {
+    "parameter": "fico",
+    "shift": "-1 SE",
+    "se": 0.0005579688042430391,
+    "naive_mean_pd_change_bp": -292.7047650441475,
+    "naive_approval_change_pp": 6.870801772188084,
+    "naive_flipped_pct": 6.87080177218808,
+    "conditional_mean_pd_change_bp": 0.05207825649555797,
+    "conditional_approval_change_pp": 0.20723167071602377,
+    "conditional_flipped_pct": 0.22866942975560953
+  },
+  {
+    "parameter": "dti",
+    "shift": "+1 SE",
+    "se": 0.1514743751815162,
+    "naive_mean_pd_change_bp": 47.79542297608796,
+    "naive_approval_change_pp": -1.021866514220382,
+    "naive_flipped_pct": 1.02186651422038,
+    "conditional_mean_pd_change_bp": -0.042373605143586346,
+    "conditional_approval_change_pp": 0.067886236958703,
+    "conditional_flipped_pct": 0.35372302415320855
+  },
+  {
+    "parameter": "dti",
+    "shift": "-1 SE",
+    "se": 0.1514743751815162,
+    "naive_mean_pd_change_bp": -46.612296953430224,
+    "naive_approval_change_pp": 1.086179791339148,
+    "naive_flipped_pct": 1.0861797913391453,
+    "conditional_mean_pd_change_bp": 0.25433157252258143,
+    "conditional_approval_change_pp": -0.10004287551808044,
+    "conditional_flipped_pct": 0.42160926111190505
+  },
+  {
+    "parameter": "utilization",
+    "shift": "+1 SE",
+    "se": 0.1342036319511894,
+    "naive_mean_pd_change_bp": 43.36755221149069,
+    "naive_approval_change_pp": -0.9253965985422274,
+    "naive_flipped_pct": 0.9253965985422323,
+    "conditional_mean_pd_change_bp": 0.1233787762458527,
+    "conditional_approval_change_pp": 0.09646991567815455,
+    "conditional_flipped_pct": 0.43232814063169933
+  },
+  {
+    "parameter": "utilization",
+    "shift": "-1 SE",
+    "se": 0.1342036319511894,
+    "naive_mean_pd_change_bp": -42.34451808736745,
+    "naive_approval_change_pp": 0.961126196941553,
+    "naive_flipped_pct": 0.9611261969415464,
+    "conditional_mean_pd_change_bp": 0.09151572738785863,
+    "conditional_approval_change_pp": -0.04287551807917733,
+    "conditional_flipped_pct": 0.3644419036730027
+  },
+  {
+    "parameter": "income_log",
+    "shift": "+1 SE",
+    "se": 0.05893278752351351,
+    "naive_mean_pd_change_bp": 645.0345811298478,
+    "naive_approval_change_pp": -13.591539231099038,
+    "naive_flipped_pct": 13.591539231099043,
+    "conditional_mean_pd_change_bp": 0.1265345667303408,
+    "conditional_approval_change_pp": 0.021437759039588666,
+    "conditional_flipped_pct": 0.39302558239245394
+  },
+  {
+    "parameter": "income_log",
+    "shift": "-1 SE",
+    "se": 0.05893278752351351,
+    "naive_mean_pd_change_bp": -481.98923611180527,
+    "naive_approval_change_pp": 11.329855652422472,
+    "naive_flipped_pct": 11.329855652422467,
+    "conditional_mean_pd_change_bp": 0.11877886470446075,
+    "conditional_approval_change_pp": -0.07503215663855478,
+    "conditional_flipped_pct": 0.4251822209518365
+  },
+  {
+    "parameter": "inquiries_6m",
+    "shift": "+1 SE",
+    "se": 0.021342875851303327,
+    "naive_mean_pd_change_bp": 24.841947756631676,
+    "naive_approval_change_pp": -0.507360297270254,
+    "naive_flipped_pct": 0.5073602972702587,
+    "conditional_mean_pd_change_bp": 0.11584331802788617,
+    "conditional_approval_change_pp": 0.021437759039588666,
+    "conditional_flipped_pct": 0.4287551807917679
+  },
+  {
+    "parameter": "inquiries_6m",
+    "shift": "-1 SE",
+    "se": 0.021342875851303327,
+    "naive_mean_pd_change_bp": -24.364872327137242,
+    "naive_approval_change_pp": 0.5681006145490941,
+    "naive_flipped_pct": 0.5681006145490924,
+    "conditional_mean_pd_change_bp": 0.09909456904239056,
+    "conditional_approval_change_pp": 0.014291839359725778,
+    "conditional_flipped_pct": 0.39302558239245394
+  },
+  {
+    "parameter": "delinq_24m",
+    "shift": "+1 SE",
+    "se": 0.044696360776280766,
+    "naive_mean_pd_change_bp": 12.000100085808041,
+    "naive_approval_change_pp": -0.22866942975561244,
+    "naive_flipped_pct": 0.22866942975560953,
+    "conditional_mean_pd_change_bp": 0.03745557362849761,
+    "conditional_approval_change_pp": 0.07503215663856588,
+    "conditional_flipped_pct": 0.35372302415320855
+  },
+  {
+    "parameter": "delinq_24m",
+    "shift": "-1 SE",
+    "se": 0.044696360776280766,
+    "naive_mean_pd_change_bp": -11.752863488499464,
+    "naive_approval_change_pp": 0.2679719879948528,
+    "naive_flipped_pct": 0.26797198799485494,
+    "conditional_mean_pd_change_bp": 0.15658745287444598,
+    "conditional_approval_change_pp": -0.046448477919103226,
+    "conditional_flipped_pct": 0.4394740603115621
+  },
+  {
+    "parameter": "employment_years",
+    "shift": "+1 SE",
+    "se": 0.006094562833331817,
+    "naive_mean_pd_change_bp": 30.529660235009693,
+    "naive_approval_change_pp": -0.7253108475060777,
+    "naive_flipped_pct": 0.725310847506074,
+    "conditional_mean_pd_change_bp": 0.1851096520211204,
+    "conditional_approval_change_pp": -0.0035729598399258933,
+    "conditional_flipped_pct": 0.4180363012719737
+  },
+  {
+    "parameter": "employment_years",
+    "shift": "-1 SE",
+    "se": 0.006094562833331817,
+    "naive_mean_pd_change_bp": -29.765074398098445,
+    "naive_approval_change_pp": 0.7324567671859405,
+    "naive_flipped_pct": 0.7324567671859368,
+    "conditional_mean_pd_change_bp": 0.06502895440213541,
+    "conditional_approval_change_pp": 0.07145919679862889,
+    "conditional_flipped_pct": 0.3358582249535515
+  },
+  {
+    "parameter": "region_risk",
+    "shift": "+1 SE",
+    "se": 0.09704147799413662,
+    "naive_mean_pd_change_bp": 41.22890717350586,
+    "naive_approval_change_pp": -0.9003858796627129,
+    "naive_flipped_pct": 0.9003858796627126,
+    "conditional_mean_pd_change_bp": 0.16334406118811984,
+    "conditional_approval_change_pp": 0.060740317278840106,
+    "conditional_flipped_pct": 0.4609118193511505
+  },
+  {
+    "parameter": "region_risk",
+    "shift": "-1 SE",
+    "se": 0.09704147799413662,
+    "naive_mean_pd_change_bp": -40.1725962642116,
+    "naive_approval_change_pp": 0.9754180363012788,
+    "naive_flipped_pct": 0.975418036301272,
+    "conditional_mean_pd_change_bp": 0.07107709563192177,
+    "conditional_approval_change_pp": -0.03215663855937745,
+    "conditional_flipped_pct": 0.46805773903101333
+  },
+  {
+    "parameter": "channel_broker",
+    "shift": "+1 SE",
+    "se": 0.06403156820659246,
+    "naive_mean_pd_change_bp": 10.025873319332579,
+    "naive_approval_change_pp": -0.189366871516361,
+    "naive_flipped_pct": 0.18936687151636414,
+    "conditional_mean_pd_change_bp": 0.1697157792998616,
+    "conditional_approval_change_pp": 0.07860511647849178,
+    "conditional_flipped_pct": 0.35729598399313994
+  },
+  {
+    "parameter": "channel_broker",
+    "shift": "-1 SE",
+    "se": 0.06403156820659246,
+    "naive_mean_pd_change_bp": -9.774921063915032,
+    "naive_approval_change_pp": 0.1857939116764351,
+    "naive_flipped_pct": 0.18579391167643278,
+    "conditional_mean_pd_change_bp": 0.04200580559776679,
+    "conditional_approval_change_pp": -0.01786479919965167,
+    "conditional_flipped_pct": 0.33943118479348294
+  }
+]

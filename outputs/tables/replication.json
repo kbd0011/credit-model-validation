@@ -1,0 +1,30 @@
+{
+  "independent_refit": {
+    "income_fill_match": true,
+    "max_abs_coef_diff": 0.0,
+    "max_abs_score_diff": 0.0,
+    "score_correlation": 1.0,
+    "replicated_test_auc": 0.8513,
+    "production_test_auc": 0.8513,
+    "n_test": 8560
+  },
+  "reported_auc_reproduction": {
+    "tolerance": 5e-05,
+    "train": {
+      "n": 19440,
+      "reported_auc": 0.8632,
+      "reproduced_auc": 0.8631860763955672,
+      "abs_diff": 1.3923604432752867e-05,
+      "within_tolerance": true
+    },
+    "test": {
+      "n": 8560,
+      "reported_auc": 0.8513,
+      "reproduced_auc": 0.8512705123202672,
+      "abs_diff": 2.9487679732764782e-05,
+      "within_tolerance": true
+    },
+    "n_train_matches_doc": true,
+    "n_test_matches_doc": true
+  }
+}

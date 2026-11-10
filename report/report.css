@@ -1,0 +1,23 @@
+/* Validation report print style */
+html { font-family: "DejaVu Sans", "Liberation Sans", Arial, sans-serif; font-size: 9.6pt; color: #0b0b0b; }
+body { max-width: none; margin: 0; padding: 0; line-height: 1.42; }
+h1 { font-size: 20pt; margin: 0 0 4pt 0; color: #10305a; }
+h2 { font-size: 13.5pt; color: #10305a; border-bottom: 1.2px solid #10305a; padding-bottom: 2pt; margin-top: 20pt; page-break-after: avoid; }
+h3 { font-size: 11pt; color: #10305a; margin-top: 14pt; page-break-after: avoid; }
+.cover h2 { border: none; font-size: 14pt; color: #52514e; margin-top: 0; }
+.cover table { font-size: 9.6pt; width: 100%; margin-top: 10pt; }
+.cover table td:first-child { width: 30%; }
+.note { border-left: 3px solid #2a78d6; background: #f3f7fd; padding: 6pt 9pt; margin: 12pt 0; font-size: 8.6pt; }
+p { margin: 5pt 0 7pt 0; text-align: left; }
+ul, ol { margin: 4pt 0 8pt 0; padding-left: 18pt; }
+li { margin-bottom: 3pt; }
+table { border-collapse: collapse; width: 100%; font-size: 7.4pt; margin: 6pt 0 12pt 0; page-break-inside: auto; }
+tr { page-break-inside: avoid; }
+thead th { background: #10305a; color: #fff; font-weight: bold; padding: 3pt 4pt; border: 0.5px solid #10305a; text-align: left; }
+td { padding: 2.5pt 4pt; border: 0.5px solid #c3c2b7; vertical-align: top; }
+tbody tr:nth-child(even) { background: #f6f6f3; }
+figure { margin: 8pt 0 12pt 0; text-align: center; page-break-inside: avoid; }
+figure img { max-width: 100%; }
+figcaption { font-size: 8pt; color: #52514e; margin-top: 3pt; text-align: left; }
+code { font-family: "DejaVu Sans Mono", monospace; font-size: 8pt; background: #f3f3f0; padding: 0 2px; }
+strong { color: #0b0b0b; }

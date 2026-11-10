@@ -1,0 +1,62 @@
+[
+  {
+    "characteristic": "fico",
+    "iv": 1.538891365449643,
+    "strength": "strong",
+    "n_bins": 10
+  },
+  {
+    "characteristic": "income (raw, missing as bin)",
+    "iv": 0.24660604340190817,
+    "strength": "medium",
+    "n_bins": 11
+  },
+  {
+    "characteristic": "dti",
+    "iv": 0.18043337437249926,
+    "strength": "medium",
+    "n_bins": 10
+  },
+  {
+    "characteristic": "income_log (as imputed by model)",
+    "iv": 0.176306737021756,
+    "strength": "medium",
+    "n_bins": 10
+  },
+  {
+    "characteristic": "utilization",
+    "iv": 0.11288439179504202,
+    "strength": "medium",
+    "n_bins": 10
+  },
+  {
+    "characteristic": "delinq_24m",
+    "iv": 0.03883550623595964,
+    "strength": "weak",
+    "n_bins": 4
+  },
+  {
+    "characteristic": "inquiries_6m",
+    "iv": 0.03626903906103043,
+    "strength": "weak",
+    "n_bins": 5
+  },
+  {
+    "characteristic": "employment_years",
+    "iv": 0.018333258701593032,
+    "strength": "unpredictive",
+    "n_bins": 10
+  },
+  {
+    "characteristic": "channel",
+    "iv": 0.015014527641443532,
+    "strength": "unpredictive",
+    "n_bins": 3
+  },
+  {
+    "characteristic": "region_risk",
+    "iv": 0.013728470225787923,
+    "strength": "unpredictive",
+    "n_bins": 10
+  }
+]

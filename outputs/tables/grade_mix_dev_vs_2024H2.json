@@ -1,0 +1,50 @@
+[
+  {
+    "grade": 1,
+    "dev_share": 0.125,
+    "target_share": 0.05491666666666667,
+    "change_pp": -7.008333333333333
+  },
+  {
+    "grade": 2,
+    "dev_share": 0.125,
+    "target_share": 0.07308333333333333,
+    "change_pp": -5.191666666666666
+  },
+  {
+    "grade": 3,
+    "dev_share": 0.125,
+    "target_share": 0.09175,
+    "change_pp": -3.325
+  },
+  {
+    "grade": 4,
+    "dev_share": 0.125,
+    "target_share": 0.10258333333333333,
+    "change_pp": -2.2416666666666667
+  },
+  {
+    "grade": 5,
+    "dev_share": 0.125,
+    "target_share": 0.12208333333333334,
+    "change_pp": -0.29166666666666646
+  },
+  {
+    "grade": 6,
+    "dev_share": 0.125,
+    "target_share": 0.14183333333333334,
+    "change_pp": 1.683333333333334
+  },
+  {
+    "grade": 7,
+    "dev_share": 0.125,
+    "target_share": 0.17216666666666666,
+    "change_pp": 4.716666666666666
+  },
+  {
+    "grade": 8,
+    "dev_share": 0.125,
+    "target_share": 0.24158333333333334,
+    "change_pp": 11.658333333333335
+  }
+]

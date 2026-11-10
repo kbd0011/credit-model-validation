@@ -1,0 +1,110 @@
+{
+  "n_rows": 54000,
+  "duplicate_loan_ids": 0,
+  "missing_pct": {
+    "loan_id": 0.0,
+    "vintage": 0.0,
+    "fico": 0.0,
+    "dti": 0.0,
+    "utilization": 0.0,
+    "income": 10.83,
+    "loan_amount": 0.0,
+    "tenure_months": 0.0,
+    "inquiries_6m": 0.0,
+    "delinq_24m": 0.0,
+    "employment_years": 0.0,
+    "region_risk": 0.0,
+    "channel": 0.0,
+    "protected_class": 0.0,
+    "default_12m": 0.0
+  },
+  "income_missing_vs_default": {
+    "default_rate_when_missing": 0.3671,
+    "default_rate_when_present": 0.1328,
+    "chi2_p_value": 0.0
+  },
+  "range_violations": {
+    "fico_below_300": 10,
+    "dti_above_1": 15,
+    "utilization_outside_0_1": 0
+  },
+  "by_vintage": [
+    {
+      "vintage": "2023H1",
+      "n": 14000,
+      "default_rate": 0.1404,
+      "mean_fico": 705.1033,
+      "mean_util": 0.3318
+    },
+    {
+      "vintage": "2023H2",
+      "n": 14000,
+      "default_rate": 0.136,
+      "mean_fico": 704.9384,
+      "mean_util": 0.3326
+    },
+    {
+      "vintage": "2024H1",
+      "n": 14000,
+      "default_rate": 0.1436,
+      "mean_fico": 704.397,
+      "mean_util": 0.3311
+    },
+    {
+      "vintage": "2024H2",
+      "n": 12000,
+      "default_rate": 0.2218,
+      "mean_fico": 682.2049,
+      "mean_util": 0.4153
+    }
+  ],
+  "income_missing_by_vintage": [
+    {
+      "vintage": "2023H1",
+      "n": 14000,
+      "missing_rate": 0.11042857142857143
+    },
+    {
+      "vintage": "2023H2",
+      "n": 14000,
+      "missing_rate": 0.104
+    },
+    {
+      "vintage": "2024H1",
+      "n": 14000,
+      "missing_rate": 0.10207142857142858
+    },
+    {
+      "vintage": "2024H2",
+      "n": 12000,
+      "missing_rate": 0.11791666666666667
+    }
+  ],
+  "range_violations_by_vintage": [
+    {
+      "vintage": "2023H1",
+      "bad_fico": 3,
+      "bad_dti": 3
+    },
+    {
+      "vintage": "2023H2",
+      "bad_fico": 2,
+      "bad_dti": 4
+    },
+    {
+      "vintage": "2024H1",
+      "bad_fico": 2,
+      "bad_dti": 5
+    },
+    {
+      "vintage": "2024H2",
+      "bad_fico": 3,
+      "bad_dti": 3
+    }
+  ],
+  "range_violations_in_dev_train": 8,
+  "pd_on_range_violations": {
+    "fico_zero_mean_pd": 0.9999999000292729,
+    "dti_gt1_mean_pd": 0.9370780971173205
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "gbm": {
+    "mean_pairwise_spearman": 0.9564035087719298,
+    "min_pairwise_spearman": 0.9,
+    "top3_set_stability": 0.55
+  },
+  "logit": {
+    "mean_pairwise_spearman": 0.971578947368421,
+    "min_pairwise_spearman": 0.9333333333333332,
+    "top3_set_stability": 1.0
+  },
+  "n_boot": 20,
+  "n_repeats": 3
+}

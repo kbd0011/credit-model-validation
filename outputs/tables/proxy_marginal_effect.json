@@ -1,0 +1,32 @@
+{
+  "n": 27988,
+  "corr_region_risk_class_B": 0.3482645449956685,
+  "auc_region_risk_predicting_class_B": 0.7113662549637852,
+  "mean_region_risk_A": 0.4086868039504098,
+  "mean_region_risk_B": 0.596934763181412,
+  "raw_default_rate_A": 0.1335889892834629,
+  "raw_default_rate_B": 0.14801161751563896,
+  "lr_test_region_risk_given_class": {
+    "stat": 31.245859761780594,
+    "dof": 1,
+    "p_value": 2.2733179554402582e-08,
+    "coef": 0.48526002202266155,
+    "se": 0.08689906515049954
+  },
+  "lr_test_class_given_inputs": {
+    "stat": 0.28876729353214614,
+    "dof": 1,
+    "p_value": 0.5910115625213083,
+    "coef": 0.0248900950389131,
+    "se": 0.046295972032244885
+  },
+  "ame_region_risk_with_class": {
+    "ame": 0.04169066684840981,
+    "se": 0.007453780929929453
+  },
+  "ame_region_risk_without_class": {
+    "ame": 0.043138108931977164,
+    "se": 0.006950626598360836
+  },
+  "ame_attenuation_pct": 3.3553674915369425
+}

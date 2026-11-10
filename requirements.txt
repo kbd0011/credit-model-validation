@@ -1,0 +1,12 @@
+# Versions used to produce the committed outputs (see outputs/run_manifest.json).
+# No other third-party packages are required.
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+pytest==9.1.1
+# Report build also needs the command-line tools pandoc (>=3.1) and wkhtmltopdf (0.12.6)
+# or LibreOffice (PDF fallback).
+# Optional, used by the report build when present (page-number footers, DOCX table styling):
+# pypdf, reportlab, python-docx

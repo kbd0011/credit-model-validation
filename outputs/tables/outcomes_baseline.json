@@ -1,0 +1,397 @@
+{
+  "dev": {
+    "n": 28000,
+    "default_rate": 0.1382,
+    "mean_pd": 0.1388,
+    "auc": 0.8596,
+    "gini": 0.7193,
+    "ks": 0.5529,
+    "brier": 0.0861,
+    "log_loss": 0.2877,
+    "hosmer_lemeshow": {
+      "stat": 10.37,
+      "dof": 8,
+      "p_value": 0.2401
+    },
+    "calibration_intercept": -0.025,
+    "calibration_slope": 0.986,
+    "deciles": [
+      {
+        "decile": 1,
+        "n": 2800,
+        "predicted": 0.0036,
+        "observed": 0.0029
+      },
+      {
+        "decile": 2,
+        "n": 2800,
+        "predicted": 0.0105,
+        "observed": 0.0104
+      },
+      {
+        "decile": 3,
+        "n": 2800,
+        "predicted": 0.0196,
+        "observed": 0.0154
+      },
+      {
+        "decile": 4,
+        "n": 2800,
+        "predicted": 0.0324,
+        "observed": 0.0336
+      },
+      {
+        "decile": 5,
+        "n": 2800,
+        "predicted": 0.0508,
+        "observed": 0.0568
+      },
+      {
+        "decile": 6,
+        "n": 2800,
+        "predicted": 0.0777,
+        "observed": 0.0818
+      },
+      {
+        "decile": 7,
+        "n": 2800,
+        "predicted": 0.1179,
+        "observed": 0.1118
+      },
+      {
+        "decile": 8,
+        "n": 2800,
+        "predicted": 0.1837,
+        "observed": 0.1707
+      },
+      {
+        "decile": 9,
+        "n": 2800,
+        "predicted": 0.3021,
+        "observed": 0.3054
+      },
+      {
+        "decile": 10,
+        "n": 2800,
+        "predicted": 0.59,
+        "observed": 0.5936
+      }
+    ]
+  },
+  "dev_train": {
+    "n": 19440,
+    "default_rate": 0.1391,
+    "mean_pd": 0.1391,
+    "auc": 0.8632,
+    "gini": 0.7264,
+    "ks": 0.5621,
+    "brier": 0.0856,
+    "log_loss": 0.2855,
+    "hosmer_lemeshow": {
+      "stat": 16.02,
+      "dof": 8,
+      "p_value": 0.0421
+    },
+    "calibration_intercept": 0.0,
+    "calibration_slope": 1.0,
+    "deciles": [
+      {
+        "decile": 1,
+        "n": 1944,
+        "predicted": 0.0036,
+        "observed": 0.0031
+      },
+      {
+        "decile": 2,
+        "n": 1944,
+        "predicted": 0.0105,
+        "observed": 0.0098
+      },
+      {
+        "decile": 3,
+        "n": 1944,
+        "predicted": 0.0195,
+        "observed": 0.0144
+      },
+      {
+        "decile": 4,
+        "n": 1944,
+        "predicted": 0.0323,
+        "observed": 0.0329
+      },
+      {
+        "decile": 5,
+        "n": 1944,
+        "predicted": 0.0504,
+        "observed": 0.0592
+      },
+      {
+        "decile": 6,
+        "n": 1944,
+        "predicted": 0.077,
+        "observed": 0.0802
+      },
+      {
+        "decile": 7,
+        "n": 1944,
+        "predicted": 0.1167,
+        "observed": 0.1049
+      },
+      {
+        "decile": 8,
+        "n": 1944,
+        "predicted": 0.1823,
+        "observed": 0.1641
+      },
+      {
+        "decile": 9,
+        "n": 1944,
+        "predicted": 0.3038,
+        "observed": 0.32
+      },
+      {
+        "decile": 10,
+        "n": 1944,
+        "predicted": 0.595,
+        "observed": 0.6024
+      }
+    ]
+  },
+  "dev_test": {
+    "n": 8560,
+    "default_rate": 0.1362,
+    "mean_pd": 0.1382,
+    "auc": 0.8513,
+    "gini": 0.7025,
+    "ks": 0.5358,
+    "brier": 0.0872,
+    "log_loss": 0.2926,
+    "hosmer_lemeshow": {
+      "stat": 4.73,
+      "dof": 8,
+      "p_value": 0.7862
+    },
+    "calibration_intercept": -0.082,
+    "calibration_slope": 0.954,
+    "deciles": [
+      {
+        "decile": 1,
+        "n": 856,
+        "predicted": 0.0036,
+        "observed": 0.0023
+      },
+      {
+        "decile": 2,
+        "n": 856,
+        "predicted": 0.0107,
+        "observed": 0.0117
+      },
+      {
+        "decile": 3,
+        "n": 856,
+        "predicted": 0.0199,
+        "observed": 0.0187
+      },
+      {
+        "decile": 4,
+        "n": 856,
+        "predicted": 0.0327,
+        "observed": 0.0339
+      },
+      {
+        "decile": 5,
+        "n": 856,
+        "predicted": 0.0515,
+        "observed": 0.0502
+      },
+      {
+        "decile": 6,
+        "n": 856,
+        "predicted": 0.0792,
+        "observed": 0.0876
+      },
+      {
+        "decile": 7,
+        "n": 856,
+        "predicted": 0.1206,
+        "observed": 0.1297
+      },
+      {
+        "decile": 8,
+        "n": 856,
+        "predicted": 0.1867,
+        "observed": 0.1776
+      },
+      {
+        "decile": 9,
+        "n": 856,
+        "predicted": 0.2985,
+        "observed": 0.2757
+      },
+      {
+        "decile": 10,
+        "n": 856,
+        "predicted": 0.5785,
+        "observed": 0.5748
+      }
+    ]
+  },
+  "2024H1": {
+    "n": 14000,
+    "default_rate": 0.1436,
+    "mean_pd": 0.1419,
+    "auc": 0.8605,
+    "gini": 0.7211,
+    "ks": 0.5592,
+    "brier": 0.0887,
+    "log_loss": 0.2937,
+    "hosmer_lemeshow": {
+      "stat": 4.35,
+      "dof": 8,
+      "p_value": 0.8242
+    },
+    "calibration_intercept": 0.005,
+    "calibration_slope": 0.988,
+    "deciles": [
+      {
+        "decile": 1,
+        "n": 1400,
+        "predicted": 0.0035,
+        "observed": 0.0021
+      },
+      {
+        "decile": 2,
+        "n": 1400,
+        "predicted": 0.0104,
+        "observed": 0.0093
+      },
+      {
+        "decile": 3,
+        "n": 1400,
+        "predicted": 0.02,
+        "observed": 0.0207
+      },
+      {
+        "decile": 4,
+        "n": 1400,
+        "predicted": 0.0335,
+        "observed": 0.0329
+      },
+      {
+        "decile": 5,
+        "n": 1400,
+        "predicted": 0.0523,
+        "observed": 0.0493
+      },
+      {
+        "decile": 6,
+        "n": 1400,
+        "predicted": 0.0793,
+        "observed": 0.0907
+      },
+      {
+        "decile": 7,
+        "n": 1400,
+        "predicted": 0.1204,
+        "observed": 0.1186
+      },
+      {
+        "decile": 8,
+        "n": 1400,
+        "predicted": 0.1893,
+        "observed": 0.1886
+      },
+      {
+        "decile": 9,
+        "n": 1400,
+        "predicted": 0.3134,
+        "observed": 0.3214
+      },
+      {
+        "decile": 10,
+        "n": 1400,
+        "predicted": 0.597,
+        "observed": 0.6029
+      }
+    ]
+  },
+  "2024H2": {
+    "n": 12000,
+    "default_rate": 0.2218,
+    "mean_pd": 0.2231,
+    "auc": 0.8585,
+    "gini": 0.7169,
+    "ks": 0.5568,
+    "brier": 0.1155,
+    "log_loss": 0.371,
+    "hosmer_lemeshow": {
+      "stat": 13.31,
+      "dof": 8,
+      "p_value": 0.1017
+    },
+    "calibration_intercept": -0.002,
+    "calibration_slope": 1.011,
+    "deciles": [
+      {
+        "decile": 1,
+        "n": 1200,
+        "predicted": 0.0077,
+        "observed": 0.0075
+      },
+      {
+        "decile": 2,
+        "n": 1200,
+        "predicted": 0.0232,
+        "observed": 0.0192
+      },
+      {
+        "decile": 3,
+        "n": 1200,
+        "predicted": 0.043,
+        "observed": 0.045
+      },
+      {
+        "decile": 4,
+        "n": 1200,
+        "predicted": 0.0711,
+        "observed": 0.0667
+      },
+      {
+        "decile": 5,
+        "n": 1200,
+        "predicted": 0.1083,
+        "observed": 0.1158
+      },
+      {
+        "decile": 6,
+        "n": 1200,
+        "predicted": 0.1587,
+        "observed": 0.1358
+      },
+      {
+        "decile": 7,
+        "n": 1200,
+        "predicted": 0.2296,
+        "observed": 0.2067
+      },
+      {
+        "decile": 8,
+        "n": 1200,
+        "predicted": 0.3327,
+        "observed": 0.3333
+      },
+      {
+        "decile": 9,
+        "n": 1200,
+        "predicted": 0.4977,
+        "observed": 0.5208
+      },
+      {
+        "decile": 10,
+        "n": 1200,
+        "predicted": 0.7586,
+        "observed": 0.7667
+      }
+    ]
+  }
+}

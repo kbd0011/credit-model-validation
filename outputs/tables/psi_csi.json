@@ -1,0 +1,102 @@
+[
+  {
+    "sample": "2024H1",
+    "variable": "SCORE",
+    "psi": 0.0014
+  },
+  {
+    "sample": "2024H2",
+    "variable": "SCORE",
+    "psi": 0.1936
+  },
+  {
+    "sample": "2024H1",
+    "variable": "fico",
+    "psi": 0.0011
+  },
+  {
+    "sample": "2024H1",
+    "variable": "dti",
+    "psi": 0.0004
+  },
+  {
+    "sample": "2024H1",
+    "variable": "utilization",
+    "psi": 0.0014
+  },
+  {
+    "sample": "2024H1",
+    "variable": "income_log",
+    "psi": 0.0007
+  },
+  {
+    "sample": "2024H1",
+    "variable": "inquiries_6m",
+    "psi": 0.0004
+  },
+  {
+    "sample": "2024H1",
+    "variable": "delinq_24m",
+    "psi": 0.0004
+  },
+  {
+    "sample": "2024H1",
+    "variable": "employment_years",
+    "psi": 0.0006
+  },
+  {
+    "sample": "2024H1",
+    "variable": "region_risk",
+    "psi": 0.0008
+  },
+  {
+    "sample": "2024H1",
+    "variable": "channel_broker",
+    "psi": 0.0024
+  },
+  {
+    "sample": "2024H2",
+    "variable": "fico",
+    "psi": 0.1498
+  },
+  {
+    "sample": "2024H2",
+    "variable": "dti",
+    "psi": 0.0012
+  },
+  {
+    "sample": "2024H2",
+    "variable": "utilization",
+    "psi": 0.1785
+  },
+  {
+    "sample": "2024H2",
+    "variable": "income_log",
+    "psi": 0.0015
+  },
+  {
+    "sample": "2024H2",
+    "variable": "inquiries_6m",
+    "psi": 0.0005
+  },
+  {
+    "sample": "2024H2",
+    "variable": "delinq_24m",
+    "psi": 0.0
+  },
+  {
+    "sample": "2024H2",
+    "variable": "employment_years",
+    "psi": 0.0012
+  },
+  {
+    "sample": "2024H2",
+    "variable": "region_risk",
+    "psi": 0.0006
+  },
+  {
+    "sample": "2024H2",
+    "variable": "channel_broker",
+    "psi": 0.0051
+  }
+]
