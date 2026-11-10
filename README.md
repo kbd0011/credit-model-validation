@@ -10,7 +10,7 @@ function would write it. It contains:
 - a frozen first-line "production" model;
 - a validation library with independently implemented statistics, tested against closed-form results;
 - a one-command pipeline that writes every result to `outputs/`;
-- a 21-page validation report (`report/validation_report.pdf` / `.docx` / `.md`) with an overall rating, a findings register and conditions for use. Every number in the report is inserted from `outputs/`.
+- a 21-page validation report ([`report/validation_report.pdf`](report/validation_report.pdf) / [`.docx`](report/validation_report.docx) / [`.md`](report/validation_report.md)) with an overall rating, a findings register and conditions for use. Every number in the report is inserted from `outputs/`.
 
 > **The data are synthetic.** `data/make_data.py` generates 54,000 loans from a fully documented
 > data-generating process (DGP) with deliberately planted weaknesses. This is a feature, not a
